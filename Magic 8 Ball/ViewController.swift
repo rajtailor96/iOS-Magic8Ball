@@ -40,7 +40,7 @@ class MP3{
                 audioPlayer.numberOfLoops = -1
                 audioPlayer.prepareToPlay()
                 audioPlayer.play()
-            } catch {
+            } catch {  
                 print(error)
             }
         }
