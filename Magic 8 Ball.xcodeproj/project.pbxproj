@@ -13,6 +13,7 @@
 		ADE1FB4B22B3A4B100DD2BD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE1FB4922B3A4B100DD2BD6 /* Main.storyboard */; };
 		ADE1FB4D22B3A4B300DD2BD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE1FB4C22B3A4B300DD2BD6 /* Assets.xcassets */; };
 		ADE1FB5022B3A4B300DD2BD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE1FB4E22B3A4B300DD2BD6 /* LaunchScreen.storyboard */; };
+		BC01B74825CE30F800A2D0B7 /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC01B74725CE30F800A2D0B7 /* backgroundMusic.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		ADE1FB4C22B3A4B300DD2BD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADE1FB4F22B3A4B300DD2BD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADE1FB5122B3A4B300DD2BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC01B74725CE30F800A2D0B7 /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		ADE1FB3722B3A4B100DD2BD6 = {
 			isa = PBXGroup;
 			children = (
+				BC01B74725CE30F800A2D0B7 /* backgroundMusic.mp3 */,
 				ADE1FB4222B3A4B100DD2BD6 /* Magic 8 Ball */,
 				ADE1FB4122B3A4B100DD2BD6 /* Products */,
 			);
@@ -127,6 +130,7 @@
 			files = (
 				ADE1FB5022B3A4B300DD2BD6 /* LaunchScreen.storyboard in Resources */,
 				ADE1FB4D22B3A4B300DD2BD6 /* Assets.xcassets in Resources */,
+				BC01B74825CE30F800A2D0B7 /* backgroundMusic.mp3 in Resources */,
 				ADE1FB4B22B3A4B100DD2BD6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,12 +289,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CKQSXZ2XC;
 				INFOPLIST_FILE = "Magic 8 Ball/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "co.appbrewery.Magic-8-Ball";
+				PRODUCT_BUNDLE_IDENTIFIER = co.raj.MagicMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -302,12 +307,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CKQSXZ2XC;
 				INFOPLIST_FILE = "Magic 8 Ball/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "co.appbrewery.Magic-8-Ball";
+				PRODUCT_BUNDLE_IDENTIFIER = co.raj.MagicMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
